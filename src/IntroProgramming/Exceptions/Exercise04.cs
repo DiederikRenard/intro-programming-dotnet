@@ -2,7 +2,7 @@ namespace IntroProgramming.Exceptions;
 
 /// <summary>
 /// Exercise 04: throw.
-/// When n is negative, throw ArgumentException with message "Number must be positive".
+/// When n is negative, throw ArgumentException with message "Number must not be negative".
 /// Otherwise return n. Zero is allowed.
 /// </summary>
 public static class Exercise04

@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <!-- Lets the net8.0 projects run on a newer installed runtime (9, 10, ...) when .NET 8 itself is missing. -->
+    <RollForward>Major</RollForward>
+  </PropertyGroup>
+</Project>

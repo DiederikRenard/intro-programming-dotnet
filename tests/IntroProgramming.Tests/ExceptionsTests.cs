@@ -34,7 +34,7 @@ public class ExceptionsTests
         Assert.Equal(0, Exercise04.RequirePositive(0));
 
         var exception = Assert.Throws<ArgumentException>(() => Exercise04.RequirePositive(-1));
-        Assert.Contains("Number must be positive", exception.Message);
+        Assert.Contains("Number must not be negative", exception.Message);
     }
 
     [Fact]

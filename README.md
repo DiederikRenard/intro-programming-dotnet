@@ -6,7 +6,7 @@ This is the C# counterpart of [intro-programming-python](https://github.com/blit
 
 ## Prerequisites
 
-- .NET 8 SDK
+- .NET 8 SDK or newer (9, 10, ... also work)
 
 ## How to check your work
 

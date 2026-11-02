@@ -11,6 +11,8 @@ public class VariablesAndDataTypesTests
 
         Assert.IsType<int>(age);
         Assert.IsType<double>(height);
+        Assert.True(age > 0, "Age must be greater than 0");
+        Assert.True(height > 0, "Height must be greater than 0");
     }
 
     [Fact]
@@ -53,5 +55,8 @@ public class VariablesAndDataTypesTests
         Assert.IsType<double>(decimalValue);
         Assert.IsType<string>(text);
         Assert.IsType<bool>(flag);
+        Assert.True(number > 0, "Number must be greater than 0");
+        Assert.True(decimalValue > 0, "Decimal must be greater than 0");
+        Assert.False(string.IsNullOrEmpty(text), "Text must not be empty");
     }
 }

@@ -2,7 +2,7 @@ namespace IntroProgramming.VariablesAndDataTypes;
 
 /// <summary>
 /// Exercise 01: basic int and double.
-/// Return an int age and a double height.
+/// Return an int age and a double height. Both must be greater than 0.
 /// </summary>
 public static class Exercise01
 {
