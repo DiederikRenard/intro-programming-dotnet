@@ -10,6 +10,14 @@ public static class Exercise01
     public static object SafeDivide(int a, int b)
     {
         // TODO: try the division, catch DivideByZeroException
+        try
+        {
+            return a / b;
+        }
+        catch (DivideByZeroException)
+        {
+            return "Cannot divide by zero";
+        }
         throw new NotImplementedException();
     }
 }
