@@ -9,6 +9,7 @@ public static class Exercise01
     public static bool IsPositive(int n)
     {
         // TODO: return whether n is positive
+        return n > 0;
         throw new NotImplementedException();
     }
 }

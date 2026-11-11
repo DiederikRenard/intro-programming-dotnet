@@ -11,6 +11,20 @@ public static class Exercise03
     public static object ConvertAndDivide(string left, string right)
     {
         // TODO: handle FormatException and DivideByZeroException separately
+        try
+        {
+            int leftValue = int.Parse(left);
+            int rightValue = int.Parse(right);
+            return leftValue / rightValue;
+        }
+        catch (FormatException)
+        {
+            return "invalid";
+        }
+        catch (DivideByZeroException)
+        {
+            return "zero";
+        }
         throw new NotImplementedException();
     }
 }

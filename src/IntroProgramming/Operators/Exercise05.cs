@@ -10,12 +10,14 @@ public static class Exercise05
     public static (bool IsMember, bool IsNotMember) CheckMembership(string value, string container)
     {
         // TODO: return (contained, notContained) for a substring
+        return (container.Contains(value), !container.Contains(value));
         throw new NotImplementedException();
     }
 
     public static (bool IsMember, bool IsNotMember) CheckMembership<T>(T value, IEnumerable<T> container)
     {
         // TODO: return (contained, notContained) for a collection
+        return (container.Contains(value), !container.Contains(value));
         throw new NotImplementedException();
     }
 }

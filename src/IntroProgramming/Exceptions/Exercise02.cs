@@ -9,6 +9,14 @@ public static class Exercise02
     public static object ParseInt(string text)
     {
         // TODO: try int.Parse(text), catch FormatException
+        try
+        {
+            return int.Parse(text);
+        }
+        catch (FormatException)
+        {
+            return "Invalid number";
+        }
         throw new NotImplementedException();
     }
 }

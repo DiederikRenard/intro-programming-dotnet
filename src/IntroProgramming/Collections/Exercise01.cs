@@ -9,6 +9,8 @@ public static class Exercise01
     public static List<T> AddItem<T>(List<T> items, T item)
     {
         // TODO: append item and return the list
+        items.Add(item);
+        return items;
         throw new NotImplementedException();
     }
 }

@@ -11,12 +11,14 @@ public class Person
     public Person(string name)
     {
         // TODO: set Name
-        throw new NotImplementedException();
+        Name = name;
+        // throw new NotImplementedException();
     }
 
     public string Greet()
     {
         // TODO: return the greeting
-        throw new NotImplementedException();
+        return $"Hello, {Name}!";
+        // throw new NotImplementedException();
     }
 }

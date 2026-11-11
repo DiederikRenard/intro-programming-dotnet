@@ -9,6 +9,7 @@ public static class Exercise05
     public static object? MaybeValue(bool empty)
     {
         // TODO: return null or a real value depending on empty
+        return empty ? null : new object();
         throw new NotImplementedException();
     }
 }

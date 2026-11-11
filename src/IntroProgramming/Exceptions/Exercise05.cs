@@ -13,6 +13,23 @@ public static class Exercise05
     public static List<string> RunWithFinally(bool shouldFail)
     {
         // TODO: use try/catch/finally and return the event list
-        throw new NotImplementedException();
+        List<string> events = new List<string>();
+        try
+        {
+            events.Add("try");
+            if (shouldFail)
+            {
+                throw new Exception("Failure");
+            }
+        }
+        catch (Exception)
+        {
+            events.Add("except");
+        }
+        finally
+        {
+            events.Add("finally");
+        }
+        return events;
     }
 }

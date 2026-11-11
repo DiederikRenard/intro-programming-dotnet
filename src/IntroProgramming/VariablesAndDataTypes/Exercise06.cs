@@ -9,6 +9,11 @@ public static class Exercise06
     public static (int Number, double Decimal, string Text, bool Flag) ExampleValues()
     {
         // TODO: return (number, decimalValue, text, flag)
+        int number = 42; // Example int greater than 0
+        double decimalValue = 3.14; // Example double greater than 0
+        string text = "Hello, World!"; // Example string that is not empty
+        bool flag = true; // Example bool
+        return (number, decimalValue, text, flag);
         throw new NotImplementedException();
     }
 }

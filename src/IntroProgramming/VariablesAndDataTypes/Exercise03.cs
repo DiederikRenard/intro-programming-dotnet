@@ -9,6 +9,7 @@ public static class Exercise03
     public static (bool And, bool Or, bool NotStudent) CombineFlags(bool isStudent, bool hasPassed)
     {
         // TODO: return (andResult, orResult, notStudent)
+        return (isStudent && hasPassed, isStudent || hasPassed, !isStudent);
         throw new NotImplementedException();
     }
 }

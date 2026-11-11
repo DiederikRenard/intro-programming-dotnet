@@ -11,6 +11,9 @@ public static class Exercise06
     public static List<int> SortedCopy(List<int> values)
     {
         // TODO: return a sorted copy
+        var copy = new List<int>(values);
+        copy.Sort();
+        return copy;
         throw new NotImplementedException();
     }
 
@@ -18,12 +21,16 @@ public static class Exercise06
         where TKey : notnull
     {
         // TODO: return the keys
+        return mapping.Keys.ToList();
         throw new NotImplementedException();
     }
 
     public static HashSet<T> WithAdded<T>(IEnumerable<T> values, T extra)
     {
         // TODO: copy the values into a set, add extra, and return the set
+        var set = new HashSet<T>(values);
+        set.Add(extra);
+        return set;
         throw new NotImplementedException();
     }
 }

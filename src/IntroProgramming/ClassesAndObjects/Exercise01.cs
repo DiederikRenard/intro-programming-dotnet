@@ -11,6 +11,8 @@ public class Person
     public Person()
     {
         // TODO: set Name to a non-empty string
-        throw new NotImplementedException();
+        Name = "Diederik Renardel";
+
+        // throw new NotImplementedException();
     }
 }

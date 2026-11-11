@@ -9,6 +9,7 @@ public static class Exercise02
     public static string EvenOrOdd(int n)
     {
         // TODO: return "even" or "odd"
-        throw new NotImplementedException();
+        return n % 2 == 0 ? "even" : "odd";
+        // throw new NotImplementedException();
     }
 }

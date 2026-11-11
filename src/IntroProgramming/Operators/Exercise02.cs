@@ -11,6 +11,8 @@ public static class Exercise02
         // TODO: return the four boolean results.
         // Tip: wrap the comparisons in parentheses, e.g. ((a < b), (a > b), ...).
         // Without them C# reads "a < b, a > b" as generic type arguments and the build fails.
+        return ((a < b), (a > b), (a == b), (a != b));
+        
         throw new NotImplementedException();
     }
 }

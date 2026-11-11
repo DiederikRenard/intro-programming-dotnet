@@ -9,6 +9,18 @@ public static class Exercise04
     public static int ToInt(object value)
     {
         // TODO: convert a string or double to int
+        if (value is string strValue)
+        {
+            return int.Parse(strValue);
+        }
+        else if (value is double doubleValue)
+        {
+            return (int)doubleValue; // Truncate toward zero
+        }
+        else
+        {
+            throw new ArgumentException("Value must be a string or double.");
+        }
         throw new NotImplementedException();
     }
 }

@@ -10,6 +10,10 @@ public static class Exercise04
     public static int RequirePositive(int n)
     {
         // TODO: throw ArgumentException for a negative n, otherwise return n
-        throw new NotImplementedException();
+        if (n < 0)
+        {
+            throw new ArgumentException("Number must not be negative");
+        }
+        return n;
     }
 }

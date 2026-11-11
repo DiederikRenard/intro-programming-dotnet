@@ -9,6 +9,7 @@ public static class Exercise01
     public static string Greet(string name)
     {
         // TODO: return the greeting
+        return $"Hello, {name}!";
         throw new NotImplementedException();
     }
 }

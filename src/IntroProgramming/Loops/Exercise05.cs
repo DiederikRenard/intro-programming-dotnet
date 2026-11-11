@@ -10,6 +10,15 @@ public static class Exercise05
     public static List<int> OddNumbersUpTo9()
     {
         // TODO: return the odd numbers from 0 through 9 using continue
-        throw new NotImplementedException();
+        var oddNumbers = new List<int>();
+        for (int i = 0; i < 10; i++)
+        {
+            if (i % 2 == 0)
+            {
+                continue;
+            }
+            oddNumbers.Add(i);
+        }
+        return oddNumbers;
     }
 }

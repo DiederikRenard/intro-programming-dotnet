@@ -9,6 +9,8 @@ public static class Exercise01
     public static (int Age, double Height) GetAgeAndHeight()
     {
         // TODO: return (age, height). Age must be an int, height must be a double.
-        throw new NotImplementedException();
+        int age = 25; // Example age
+        double height = 1.75; // Example height in meters
+        return (age, height);
     }
 }

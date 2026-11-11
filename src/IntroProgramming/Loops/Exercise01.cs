@@ -9,6 +9,11 @@ public static class Exercise01
     public static List<int> NumbersWithRange()
     {
         // TODO: collect 0 through 4 and return the list
-        throw new NotImplementedException();
+        var numbers = new List<int>();
+        for (int i = 0; i < 5; i++)
+        {
+            numbers.Add(i);
+        }
+        return numbers;
     }
 }

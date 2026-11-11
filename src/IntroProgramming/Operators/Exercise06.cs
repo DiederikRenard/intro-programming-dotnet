@@ -10,6 +10,7 @@ public static class Exercise06
     public static (int DefaultPrecedence, int WithParentheses) PrecedenceDemo()
     {
         // TODO: return (2 + 3 * 4, (2 + 3) * 4)
+        return (2 + 3 * 4, (2 + 3) * 4);
         throw new NotImplementedException();
     }
 }

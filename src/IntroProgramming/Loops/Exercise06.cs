@@ -9,6 +9,13 @@ public static class Exercise06
     public static List<(int Index, T Value)> IndexedItems<T>(IEnumerable<T> items)
     {
         // TODO: return [(0, first), (1, second), ...]
-        throw new NotImplementedException();
+        var indexedItems = new List<(int Index, T Value)>();
+        int index = 0;
+        foreach (var item in items)
+        {
+            indexedItems.Add((index, item));
+            index++;
+        }
+        return indexedItems;
     }
 }

@@ -9,6 +9,7 @@ public static class Exercise02
     public static int Add(int a, int b)
     {
         // TODO: return a + b
+        return a+b;
         throw new NotImplementedException();
     }
 }

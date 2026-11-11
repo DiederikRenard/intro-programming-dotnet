@@ -13,12 +13,15 @@ public class Person
     public Person(string name, int age)
     {
         // TODO: set Name and Age
-        throw new NotImplementedException();
+        Name = name;
+        Age = age;
+        // throw new NotImplementedException();
     }
 
     public void HaveBirthday()
     {
         // TODO: increase Age by 1
-        throw new NotImplementedException();
+        Age += 1;
+        // throw new NotImplementedException();
     }
 }

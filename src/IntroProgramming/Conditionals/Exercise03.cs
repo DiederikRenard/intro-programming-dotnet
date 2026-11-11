@@ -10,6 +10,26 @@ public static class Exercise03
     public static string LetterGrade(int score)
     {
         // TODO: return "A", "B", "C", "D", or "F"
+        if (score >= 90)
+        {
+            return "A";
+        }
+        else if (score >= 80)
+        {
+            return "B";
+        }
+        else if (score >= 70)
+        {
+            return "C";
+        }
+        else if (score >= 60)
+        {
+            return "D";
+        }
+        else
+        {
+            return "F";
+        }
         throw new NotImplementedException();
     }
 }

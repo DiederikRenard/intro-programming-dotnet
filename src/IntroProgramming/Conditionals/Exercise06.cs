@@ -9,6 +9,7 @@ public static class Exercise06
     public static bool Matches(int x)
     {
         // TODO: return whether x is between 0 and 10 (exclusive) or equal to 100
+        return (x > 0 && x < 10) || x == 100;
         throw new NotImplementedException();
     }
 }

@@ -9,6 +9,11 @@ public static class Exercise02
     public static List<T> CollectItems<T>(IEnumerable<T> items)
     {
         // TODO: loop over items, collect them, and return the new list
-        throw new NotImplementedException();
+        var collectedItems = new List<T>();
+        foreach (var item in items)
+        {
+            collectedItems.Add(item);
+        }
+        return collectedItems;
     }
 }

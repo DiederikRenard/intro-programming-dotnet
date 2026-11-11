@@ -10,6 +10,7 @@ public static class Exercise04
     public static string Greet(string name, string greeting = "Hello")
     {
         // TODO: return the greeting
+        return $"{greeting}, {name}!";
         throw new NotImplementedException();
     }
 }

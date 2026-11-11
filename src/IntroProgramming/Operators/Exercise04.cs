@@ -11,6 +11,14 @@ public static class Exercise04
     public static List<int> ApplyAssignments(int x)
     {
         // TODO: update x with +=, -=, and *=, and collect each result
+        var results = new List<int>();
+        x += 5;
+        results.Add(x);
+        x -= 3;
+        results.Add(x);
+        x *= 2;
+        results.Add(x);
+        return results;
         throw new NotImplementedException();
     }
 }

@@ -12,13 +12,15 @@ public class Person
     public Person(string name)
     {
         // TODO: set Name
-        throw new NotImplementedException();
+        Name = name;
+        // throw new NotImplementedException();
     }
 
     public string Greet()
     {
         // TODO: return the greeting
-        throw new NotImplementedException();
+        return $"Hello, {Name}!";
+        // throw new NotImplementedException();
     }
 }
 
@@ -27,6 +29,8 @@ public static class Exercise
     public static (Person First, Person Second) CreateTwoPeople()
     {
         // TODO: return two Person instances with different names
-        throw new NotImplementedException();
+        var First = new Person("Faolan Renardel");
+        var Second = new Person("Freya Renardel");
+        return (First, Second);
     }
 }

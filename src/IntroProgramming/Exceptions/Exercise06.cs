@@ -9,6 +9,15 @@ public static class Exercise06
     public static string GetErrorMessage(string message)
     {
         // TODO: throw, catch, and return the message
+        try
+        {
+            throw new ArgumentException(message);
+        }
+        catch (ArgumentException ex)
+        {
+            return ex.Message;
+        }
+        
         throw new NotImplementedException();
     }
 }

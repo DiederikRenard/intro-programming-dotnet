@@ -9,6 +9,7 @@ public static class Exercise03
     public static int Square(int n)
     {
         // TODO: return the square of n
+        return n * n;
         throw new NotImplementedException();
     }
 }

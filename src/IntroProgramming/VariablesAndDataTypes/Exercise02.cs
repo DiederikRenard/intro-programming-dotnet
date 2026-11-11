@@ -9,6 +9,7 @@ public static class Exercise02
     public static string FormatGreeting(string name)
     {
         // TODO: return $"Hello, {name}!"
+        return $"Hello, {name}!";
         throw new NotImplementedException();
     }
 }

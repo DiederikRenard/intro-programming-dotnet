@@ -9,6 +9,14 @@ public static class Exercise03
     public static List<int> Countdown()
     {
         // TODO: return [5, 4, 3, 2, 1, 0] using while
-        throw new NotImplementedException();
+        var countdownList = new List<int>();
+        int i = 5;
+        while (i >= 0)
+        {
+            countdownList.Add(i);
+            i--;
+        }
+
+        return countdownList;
     }
 }

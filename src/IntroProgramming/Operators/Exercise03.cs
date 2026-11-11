@@ -9,6 +9,7 @@ public static class Exercise03
     public static (bool And, bool Or, bool NotA) Logical(bool a, bool b)
     {
         // TODO: return the three boolean results
+        return (a && b, a || b, !a);
         throw new NotImplementedException();
     }
 }

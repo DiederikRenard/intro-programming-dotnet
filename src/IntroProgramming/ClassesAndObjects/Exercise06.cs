@@ -13,12 +13,15 @@ public class Rectangle
     public Rectangle(int width, int height)
     {
         // TODO: set Width and Height
-        throw new NotImplementedException();
+        Width = width;
+        Height = height;
+        // throw new NotImplementedException();
     }
 
     public int Area()
     {
         // TODO: return Width * Height
-        throw new NotImplementedException();
+        return Width * Height;
+        // throw new NotImplementedException();
     }
 }

@@ -9,6 +9,7 @@ public static class Exercise05
     public static HashSet<T> Unique<T>(IEnumerable<T> items)
     {
         // TODO: return a set of unique values
+        return new HashSet<T>(items);
         throw new NotImplementedException();
     }
 }

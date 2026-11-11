@@ -9,6 +9,14 @@ public static class Exercise05
     public static string YesOrNo(bool condition)
     {
         // TODO: return condition ? "yes" : "no"
-        throw new NotImplementedException();
+        if (condition)
+        {
+            return "yes";
+        }
+        else
+        {
+            return "no";
+        }
+        // throw new NotImplementedException();
     }
 }
